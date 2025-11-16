@@ -52,7 +52,8 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ Delete Product
+
+  
   const deleteProduct = async (id) => {
     try {
       await axios.delete(`${apiURL}/products/${id}`);
