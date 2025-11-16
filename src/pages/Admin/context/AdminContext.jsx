@@ -41,7 +41,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ Add Product
+ 
   const addProduct = async (newProduct) => {
     try {
       const res = await axios.post(`${apiURL}/products`, newProduct);
