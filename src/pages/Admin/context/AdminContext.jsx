@@ -64,7 +64,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ Edit Product
+ 
   const editProduct = async (id, updatedProduct) => {
     try {
       const res = await axios.put(`${apiURL}/products/${id}`, updatedProduct);
