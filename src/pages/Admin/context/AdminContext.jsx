@@ -77,7 +77,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ UPDATE USER (Role/Status)
+  
   const updateUser = async (id, updatedData) => {
     try {
       const res = await axios.patch(`${apiURL}/users/${id}`, updatedData);
