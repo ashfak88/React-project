@@ -94,7 +94,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ DELETE USER
+  
   const deleteUser = async (id) => {
     try {
       await axios.delete(`${apiURL}/users/${id}`);
