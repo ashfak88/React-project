@@ -106,7 +106,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ UPDATE ORDER STATUS
+  
   const updateOrderStatus = async (id, newStatus) => {
     try {
       const res = await axios.patch(`${apiURL}/orders/${id}`, {
