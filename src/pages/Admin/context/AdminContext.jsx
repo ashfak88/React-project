@@ -128,7 +128,7 @@ export const AdminProvider = ({ children }) => {
     }
   };
 
-  // ✅ DELETE ORDER WITH CORRECT STOCK RESTORE
+
   const deleteOrder = async (id) => {
     try {
       // Get the full order
