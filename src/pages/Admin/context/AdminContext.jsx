@@ -131,7 +131,7 @@ export const AdminProvider = ({ children }) => {
 
   const deleteOrder = async (id) => {
     try {
-      // Get the full order
+      
       const orderRes = await axios.get(`${apiURL}/orders/${id}`);
       const order = orderRes.data;
 
