@@ -135,7 +135,6 @@ export const AdminProvider = ({ children }) => {
       const orderRes = await axios.get(`${apiURL}/orders/${id}`);
       const order = orderRes.data;
 
-      // ✅ FIX — match product by NAME, not by item.id
       for (let item of order.items) {
         const product = products.find((p) => p.name === item.name);
 
