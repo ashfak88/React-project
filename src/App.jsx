@@ -37,7 +37,7 @@ import AdminOrders from "./pages/Admin/AdminOrders";
 
 import { AdminProvider } from "./pages/Admin/context/AdminContext";
 
-// ✅ Handles navbar hide logic
+
 function AppContent() {
   const location = useLocation();
 
