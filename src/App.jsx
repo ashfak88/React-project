@@ -28,7 +28,6 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 import ProtectedAdminRoute from "./pages/Admin/ProtectedAdminRoute";
 
-// ✅ Admin imports
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import AdminProducts from "./pages/Admin/AdminProducts";
 import AdminUsers from "./pages/Admin/AdminUserDetails";
