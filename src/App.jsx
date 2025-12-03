@@ -25,7 +25,7 @@ import { WishlistProvider } from "./context/WishlistContext";
 import Shipping from "./pages/Shipping";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-// ✅ Correct Admin Route Component
+
 import ProtectedAdminRoute from "./pages/Admin/ProtectedAdminRoute";
 
 // ✅ Admin imports
