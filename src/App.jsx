@@ -75,7 +75,7 @@ function AppContent() {
           <Route path="orders" element={<AdminOrders />} />
         </Route>
 
-        {/* ✅ Protected User Routes */}
+       
         <Route
           path="/wishlist"
           element={
