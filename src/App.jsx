@@ -59,7 +59,7 @@ function AppContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/account" element={<Account />} />
 
-        {/* ✅ PROTECTED ADMIN ROUTES (UPDATED) */}
+        
         <Route
           path="/admin"
           element={
