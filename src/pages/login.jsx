@@ -39,7 +39,6 @@ const Login = () => {
         return;
       }
 
-      // ✅ Save logged-in user
       localStorage.setItem("loggedInUser", JSON.stringify(user));
 
       toast.success(`✅ Login successful! Welcome ${user.name || "User"}`);
