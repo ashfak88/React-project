@@ -32,7 +32,7 @@ const Login = () => {
         return;
       }
 
-      // ✅ FIXED BLOCK CODE
+     
       if (user.status === "blocked") {
         setError("Your account has been blocked by admin");
         toast.error("Your account has been blocked by admin");
