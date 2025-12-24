@@ -177,7 +177,7 @@ export const AdminProvider = ({ children }) => {
         deleteOrder,
         updateOrderStatus,
         updateUser, 
-        deleteUser, // ✅ ADDED
+        deleteUser,
       }}
     >
       {children}
