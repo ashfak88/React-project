@@ -176,7 +176,7 @@ export const AdminProvider = ({ children }) => {
         editProduct,
         deleteOrder,
         updateOrderStatus,
-        updateUser, // ✅ ADDED
+        updateUser, 
         deleteUser, // ✅ ADDED
       }}
     >
