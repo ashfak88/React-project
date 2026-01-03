@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault();  
     setLoading(true);
 
     const serviceID = "service_x8jnmou";
